@@ -1,0 +1,21 @@
+{
+    "name": "laundry-room-reservation",
+    "version": "1.0.0",
+    "description": "Laundry Room Reservation System with Telegram Bot and Web Interface",
+    "scripts": {
+        "start-bot": "node src/bot/index.js",
+        "start-web": "node src/web/app.js"
+    },
+    "author": "Roman Davydov https://github.com/rdavydov",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.6",
+        "sqlite3": "^5.0.2",
+        "telegraf": "^4.8.3",
+        "node-telegram-bot-api": "^0.59.0",
+        "jsonwebtoken": "^8.5.1",
+        "sqlite": "latest"
+    }
+}
